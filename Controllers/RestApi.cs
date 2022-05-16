@@ -38,7 +38,7 @@ namespace Rest2.Controllers
         {
             switch (maand)
             {
-
+               
                 case 1:
                     if (dag <= 22)
                     { return "Steenbok"; }
@@ -48,7 +48,7 @@ namespace Rest2.Controllers
                     if (dag <= 19)
                     { return "Waterman"; }
                     else
-                    { return "Vissen "; }
+                    { return "Acuario "; }
                 case 3:
                     if (dag <= 20)
                     { return "Vissen"; }
